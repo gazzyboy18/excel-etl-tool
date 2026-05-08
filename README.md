@@ -1,33 +1,20 @@
-# Excel ETL Cleaner & Analyzer (Streamlit Web App)
+This is a free, web‑based Excel/CSV cleaning tool built with Streamlit.
+It automatically:
 
-A web-based tool that lets users upload Excel/CSV files and automatically:
+cleans messy data
 
-- Clean the data
-- Fix missing values
-- Remove duplicates
-- Generate summary statistics
-- Detect outliers
-- Produce correlation matrix
-- Download cleaned Excel
-- Download text & HTML reports
+fixes missing values
 
-Built with:
-- Python
-- Streamlit
-- Pandas
-- Numpy
+removes duplicates
 
-## 🚀 Run Locally
+generates summary statistics
 
-pip install -r requirements.txt
-streamlit run app.py
+detects outliers
 
+builds correlation matrices
 
-## 🌐 Deploy on Streamlit Cloud
+exports cleaned Excel + text & HTML reports
 
-1. Push this repo to GitHub  
-2. Go to https://share.streamlit.io  
-3. Click "New App"  
-4. Select this repo  
-5. Choose `app.py`  
-6. Deploy  
+Just upload your file and download the cleaned version instantly.
+No account needed. Works on any device.
+And most importantly, free of charge, no strings attached.
